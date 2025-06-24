@@ -9,7 +9,7 @@ namespace Game._Scripts.Manager
         public static PlayerManager Instance { get; private set; }
 
         public Movement movement;
-        public PlayerAnimationManager playerAnimationManager;
+        public AnimationManager playerAnimationManager;
 
         private void Awake()
         {
@@ -26,7 +26,6 @@ namespace Game._Scripts.Manager
         public void InitializePlayer()
         {
             movement.Initialize();
-            playerAnimationManager.Initialize();
         }
     }
 }

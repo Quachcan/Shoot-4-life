@@ -7,6 +7,7 @@ namespace Game._Scripts.Player
     {
         [Header("Movement")] 
         public float moveSpeed;
+        public float runSpeed;
         public float rotationSpeed;
         public float rotationThreshold;
         

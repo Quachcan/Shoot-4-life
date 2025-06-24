@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndState : MonoBehaviour
+public class EndState : BaseState
 {
     // Start is called before the first frame update
     void Start()

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f571eb3eae4497eb70a3687b772d39, type: 3}
   m_Name: PlayerConfig
   m_EditorClassIdentifier: 
-  moveSpeed: 4
+  moveSpeed: 1.5
+  runSpeed: 3
   rotationSpeed: 6
-  rotationThreshold: 5
-  jumpHeight: 22
+  rotationThreshold: 20
+  jumpHeight: 10
   fallGravityMultiplier: 5
   riseGravityMultiplier: 7
